@@ -1,5 +1,8 @@
 tareas = {}
 
+def saludo():
+    print('Python')
+
 def agregar_tarea(id_tarea, descripcion, prioridad):
     if id_tarea in tareas:
         raise ValueError("La tarea con este ID ya existe.")
