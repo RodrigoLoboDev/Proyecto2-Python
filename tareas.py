@@ -1,8 +1,8 @@
 tareas = {}
 
 
-def saludo():
-    print('Python')
+def suma():
+    print(5+5)
 
 def agregar_tarea(id_tarea, descripcion, prioridad):
     if id_tarea in tareas:
