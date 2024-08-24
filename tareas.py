@@ -4,6 +4,12 @@ tareas = {}
 def suma():
     print(5+5)
 
+def resta():
+    print(5-5)
+
+def multiplicacion():
+    print(5*5)
+
 def agregar_tarea(id_tarea, descripcion, prioridad):
     if id_tarea in tareas:
         raise ValueError("La tarea con este ID ya existe.")
